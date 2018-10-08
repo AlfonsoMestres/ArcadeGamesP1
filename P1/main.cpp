@@ -35,6 +35,8 @@ void StringExercise() {
 
 	if (c == "hellohello") {
 		std::cout << "C is hellohello!" << std::endl;
+	} else {
+		std::cout << "C is not hellohello :(" << std::endl;
 	}
 
 	std::cout << c.length() << std::endl;
@@ -46,9 +48,14 @@ void StringExercise() {
 }
 
 int main() {
+	std::cout << "Vector3 exercises results\n" << std::endl;
+	Vec3Exercise();
 
-	// Vec3Exercise();
+	std::cout << "\nString exercises results\n" << std::endl;
+
 	StringExercise();
+
+	std::cout << "\n" << std::endl;
 
 	std::cout << "Press Enter to exit" << std::endl;
 	getchar();
